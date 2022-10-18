@@ -1,0 +1,27 @@
+{
+    "name": "PFM",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Amuodmi/PFM.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Amuodmi/PFM/issues"
+    },
+    "homepage": "https://github.com/Amuodmi/PFM#readme",
+    "dependencies": {
+      "gh-pages": "^4.0.0"
+    },
+    "devDependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0"
+    }
+  }
+  
