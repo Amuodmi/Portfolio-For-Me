@@ -1,15 +1,7 @@
 import React from "react";
-import Nav from "./components/Nav/nav";
-import Contact from "./components/Contact/contact";
-import "./App.css";
+import Portfolio from "./components/Portfolio";
+import "./index.css";
 
-function App() {
-	return (
-		<>
-			<Nav />
-			<Contact />
-		</>
-	);
-}
+const App = () => <Portfolio />;
 
 export default App;
