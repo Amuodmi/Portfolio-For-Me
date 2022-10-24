@@ -1,9 +1,15 @@
 import React from "react";
+import BackgroundImage from "../../images/beach.jpeg";
 
 function Home() {
 	return (
 		<>
-			<h1>Hello</h1>
+			<img
+				src={BackgroundImage}
+				className="backgroundImage"
+				style={{ width: "100%" }}
+				alt="cover"
+			/>
 		</>
 	);
 }

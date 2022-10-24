@@ -1,7 +1,41 @@
-.name {
-	color: black;
+* {
+	box-sizing: border-box;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root {
+	--primary: #8bffdc;
+	--secondary: #04c689;
+	--tertiary: #fad1976d;
+	--light: #fafafa;
+	--dark: #000000;
+	--darker: #111111;
+	--error: rgb(228, 46, 1);
+	--spacing-one: calc(1rem * 0.5);
+	--spacing-two: calc(1rem);
+	--spacing-five: calc(2.5rem);
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+svg {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.backgroundImage {
+	max-height: max-content;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	/* background-image: url("images/beach.jpeg"); */
+	font-family: "Bodoni Moda", sans-serif;
+}

@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { NameSVG } from "./namesvg";
 
 function Nav({ currentPage, handlePageChange }) {
 	return (
 		<header>
 			<nav>
-				<h1 className="Name">
-					<a href="#MichellePortfolio">Michelle</a>
-				</h1>
+				<NameSVG />
 				<a href="#projects">Projects</a>
 
 				<a href="#skills">Skills</a>
